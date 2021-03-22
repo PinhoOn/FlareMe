@@ -1,0 +1,39 @@
+.bodySpec{
+    background-color: black;
+
+}
+.topMenu {
+    position: absolute;
+    background-color: white;
+    width: 100% ;
+    height: 10%;
+    top: 0px;
+    left: 0px;
+
+}
+
+#mainLogo {
+    color:black;
+    position: absolute;
+    font-family: 'Righteous', cursive;
+    font-size: 50px;
+    left: 30px;
+    top:-10px;
+
+
+}
+#slogan {
+    color:black;
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+    top: -5px;
+    font-family: 'Righteous', cursive;
+}
+
+.profileIcon {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 50px;
+}
