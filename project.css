@@ -56,7 +56,17 @@
     width:10%;
     height: 500px;
 }
-.left__search {
+.left--items--organize{
+    position: sticky;
+    text-align: center;
+    margin-top: 20px;
+    border: solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.left--items--search {
     width :90%;
     height: 30px;
     background-color: grey;
@@ -65,20 +75,11 @@
     opacity: 70%;
     font-size: 14px;
 }
-.left--items--organize{
-    position: sticky;
-    align-self: center;
-    align-content: center;
-    text-align: center;
-    margin-top: 20px;
-    border: solid;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-}
+
 .left--items--text{
     font-size: 25px;
     width: 100%;
     color: black;
     text-decoration: none;
+    padding-inline-end:100%;
 }
