@@ -9,77 +9,107 @@
     margin: 0;
     padding: 0;
 }
-
 .font--style{
     font-family: 'Righteous', cursive;
     color: black;
 }
 
-.top__menu {
-    position: sticky;
+/* --------------HEADER----------------- */
+
+.header__menu {
+    position: relative;
     display: flex; 
     justify-content: space-between;
     background-color: white;
     width: 100%;
-    height: 100px;
+    height: 60px;
     border-bottom: solid;
-
 }
-
-.header__logo {
+.header--menu--logo {
+    position: relative;
+    display: flex;
     font-size: 45px;
-    border: solid;
-    width: calc(10% - 10px);
-    height: 100px;
-    padding-top: 25px;
-    margin-left: 10px;;
-    border-top: 0;
-    border-left: 0;
-    margin-top: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
     margin-bottom: 0;
 }
-.header__slogan {
-    margin-bottom: 10px;
-    font-size: 40px;
+.header__search {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 40px;
+    margin-top: 13px;
+    margin-bottom: 0;
 }
-.header__profile {
-    width: 50px;
-    margin-top: 20px;
-    margin-right: 10px;
+.header--search--text{
+    position: relative;
+    display:flex;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+
+}
+.header--search--confirm{
+    position: relative;
+    display: flex;
+    right: 30px;
+    top: 5px;
+    width: 25px;
+    height: 25px;
+    opacity: 70%;
+}
+.header--menu--profile {
+    width: 40px;
+    margin-right: 15px;
     padding: 0px;
+    margin-top: 10px;
 }
+
+
+/* ----------- Left Menu --------------
+
 .left__menu {
-    position: sticky;
-    display: flex; 
-    flex-direction: column;
+    position: fixed;
     background-color: white;
+    top: 11%;
     width:10%;
-    height: 500px;
+    height: 100%;
+}
+.left__items{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    padding-left: 0; 
 }
 .left--items--organize{
-    position: sticky;
-    text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
     border: solid;
     border-top: 0;
     border-left: 0;
     border-right: 0;
 }
-
 .left--items--search {
-    width :90%;
-    height: 30px;
+    width :85%;
+    height: 40px;
+    opacity: 70%;
+    text-align: center;
+    font-size: 14px;
     background-color: grey;
     border: none;
-    border-radius: 10px;
-    opacity: 70%;
-    font-size: 14px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-left: 12px;
 }
-
 .left--items--text{
-    font-size: 25px;
-    width: 100%;
+    display: flex;
+    font-size: 30px;
     color: black;
     text-decoration: none;
     padding-inline-end:100%;
+    padding-left: 10px;
 }
+*/
+
